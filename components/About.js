@@ -15,7 +15,7 @@ function About() {
             About Me
           </Typography>
           <Typography variant="body1">
-            This is a brief introduction about myself.
+            This is a brief introduction about myself.  
           </Typography>
         </Paper>
       </motion.div>
