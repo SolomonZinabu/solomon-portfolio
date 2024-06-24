@@ -33,7 +33,7 @@ function About() {
                 Currently, I am serving as a Senior Development Manager at FinServ Technologies, PLC. In this role, I manage the entire development lifecycle, from initial requirements gathering to final deployment, ensuring that our solutions meet the highest standards of quality and performance.
               </Typography>
               <Typography variant="body1" paragraph>
-                I am passionate about leveraging technology to create innovative solutions that drive business success and improve user experiences. In my spare time, I enjoy reading books, watching football and listinig songs, which helps me stay creative and inspired. My career goal is to continue advancing in the field of software development, taking on challenging projects and leading dynamic teams to success.
+                I am passionate about leveraging technology to create innovative solutions that drive business success and improve user experiences. In my spare time, I enjoy reading books, watching football and listening songs, which helps me stay creative and inspired. My career goal is to continue advancing in the field of software development, taking on challenging projects and leading dynamic teams to success.
               </Typography>
               <Typography variant="body1">
                 Feel free to <a href="#contact">contact me</a> or connect with me on <a href="https://www.linkedin.com/in/solomon-zinabu-927bb8201/">LinkedIn</a>.
