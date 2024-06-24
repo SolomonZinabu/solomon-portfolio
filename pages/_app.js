@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
       <CssBaseline />
       <Head>
         <title>Solomon Zinabu</title>
-        <meta name="description" content="Somomon Zinabu Portfolio Website" />
+        <meta name="description" content="Solomon Zinabu Portfolio Website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
