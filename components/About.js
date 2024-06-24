@@ -21,7 +21,7 @@ function About() {
                 About Me
               </Typography>
               <Typography variant="body1" paragraph>
-                Hi, I'm Solomon Zinabu, a seasoned and passionate software developer based in [Your Location]. With a BSc in Computer Engineering from Bahirdar University, I have cultivated a robust foundation in both the theoretical and practical aspects of software development.
+                Hi, I'm Solomon Zinabu, a seasoned and passionate software developer based in Addis Ababa, Ethiopia. With a BSc in Computer Engineering from Bahirdar University, I have cultivated a robust foundation in both the theoretical and practical aspects of software development.
               </Typography>
               <Typography variant="body1" paragraph>
                 My professional journey began as a Junior Full Stack Developer at Moneta Technologies S.C., where I honed my skills in full stack development. I progressed to a Full Stack Developer role at the same company, further solidifying my expertise in building and maintaining scalable web applications.
