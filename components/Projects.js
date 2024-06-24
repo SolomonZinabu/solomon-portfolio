@@ -8,11 +8,11 @@ const projects = [
   {
     title: "Telegram Bot",
     description: `I have developed a full-fledged telegram bot that has the ability to transfer money, pay for merchants, pay bills, buy airtime, buy tickets and fees, and has many features for users to manage their accounts. I was one of the lead developers for the Freelance Ethiopia Telegram Bot development which was used for connecting talents and employers. This bot has many features like role-based registration, job seeker profile, employer profile, push notifications, company/startup registration, applying for jobs, attaching CVs, shortlisting CVs, hiring processes, and payment integration.`,
-    image: '/path/to/telegram-bot-screenshot.png'
+    image: '/imgs/telegrambotsubmenu.png'
   },
   {
     title: "Rest API's",
-    description: `I enhanced the existing API which is used to communicate Fettan Core system to its channels. This API supports different payload structures (JSON, SOAP, XML, YAML).`,
+    description: `I enhanced the existing API used for communication with the Fettan Core system across various channels, supporting different payload structures such as JSON, SOAP, XML, and YAML. hi`,
     image: '/path/to/rest-api-screenshot.png'
   },
   {
@@ -28,12 +28,12 @@ const projects = [
   {
     title: "mPOS",
     description: `I have led the development team and was the lead developer for mPOS applications development which has both Android and web support with one code base. This application has a lot of features like two-level authorization, purchase, pay bills, supply order (merchant to merchant transaction), cash in, cash out, merchant registration, customer registration.`,
-    image: '/path/to/mpos-screenshot.png'
+    image: '/imgs/mposwebpurchasebold.png'
   },
   {
     title: "Internet Banking / Mobile Banking",
     description: `I am the lead developer for the new version of the IB/MB application for Android, iOS, and web (one code base), which will replace the old application. This application is a full-fledged mobile/internet banking system which has all the latest functionalities related to the banking world.`,
-    image: '/path/to/internet-banking-screenshot.png'
+    image: '/imgs/internetbankingloggedin.png'
   },
   {
     title: "USSD and WhatsApp Bot",

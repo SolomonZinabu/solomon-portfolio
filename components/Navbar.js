@@ -12,7 +12,7 @@ function Navbar({ darkMode, setDarkMode }) {
     <AppBar position="static">
       <Toolbar>
         <Typography variant="h6" style={{ flexGrow: 1 }}>
-          My Portfolio
+          Solomon Zinabu Ayalew
         </Typography>
         <IconButton color="inherit" onClick={handleThemeChange}>
           {darkMode ? <Brightness7 /> : <Brightness4 />}
