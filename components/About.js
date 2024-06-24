@@ -1,8 +1,8 @@
 // components/About.js
 import React from 'react';
-import { Box, Typography, Paper, Avatar, Grid } from '@mui/material';
+import { Box, Typography, Paper, Avatar, Grid, Link } from '@mui/material';
 import { motion } from 'framer-motion';
-// import {text} from "../"
+
 function About() {
   return (
     <Box id="about" my={5}>
@@ -36,7 +36,7 @@ function About() {
                 I am passionate about leveraging technology to create innovative solutions that drive business success and improve user experiences. In my spare time, I enjoy reading books, watching football and listening songs, which helps me stay creative and inspired. My career goal is to continue advancing in the field of software development, taking on challenging projects and leading dynamic teams to success.
               </Typography>
               <Typography variant="body1">
-                Feel free to <a href="#contact">contact me</a> or connect with me on <a href="https://www.linkedin.com/in/solomon-zinabu-927bb8201/">LinkedIn</a>.
+                Feel free to <Link href="#contact">contact me</Link> or connect with me on <Link href="https://www.linkedin.com/in/solomon-zinabu-927bb8201/">LinkedIn</Link> and <Link href="https://github.com/SolomonZinabu">GitHub</Link>.
               </Typography>
             </Grid>
           </Grid>
