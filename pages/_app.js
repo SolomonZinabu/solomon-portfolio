@@ -18,8 +18,8 @@ function MyApp({ Component, pageProps }) {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Head>
-        <title>My Portfolio</title>
-        <meta name="description" content="My Portfolio Website" />
+        <title>Solomon Zinabu</title>
+        <meta name="description" content="Somomon Zinabu Portfolio Website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
