@@ -12,7 +12,7 @@ const projects = [
   },
   {
     title: "Rest API's",
-    description: `I enhanced the existing API used for communication with the Fettan Core system across various channels, supporting different payload structures such as JSON, SOAP, XML, and YAML. hi`,
+    description: `I enhanced the existing API used for communication with the Fettan Core system across various channels, supporting different payload structures such as JSON, SOAP, XML, and YAML. `,
     image: '/path/to/rest-api-screenshot.png'
   },
   {
