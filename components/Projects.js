@@ -15,7 +15,7 @@ const projects = [
     description: `I enhanced the existing API used for communication with the Fettan Core system across various channels, supporting different payload structures such as JSON, SOAP, XML, and YAML. `,
     image: '/path/to/rest-api-screenshot.png'
   },
-  {
+  {                                
     title: "Amazon Web Services API Integration",
     description: `I have done more than 20 API integrations to our vendors/clients through AWS Lambda and EC2.`,
     image: '/path/to/aws-integration-screenshot.png'
