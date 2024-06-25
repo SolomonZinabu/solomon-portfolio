@@ -37,7 +37,7 @@ const projects = [
   {
     title: "USSD and WhatsApp Bot",
     description: `I managed and led USSD and WhatsApp bot development.`,
-    image: '/path/to/ussd-whatsapp-bot-screenshot.png'
+    image: '/imgs/whatsappbot.png'
   },
   {
     title: "Fast Park",
