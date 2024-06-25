@@ -36,7 +36,7 @@ const projects = [
   },
   {
     title: "USSD and WhatsApp Bot",
-    description: `I managed and led USSD and WhatsApp bot development.`,
+    description: `I spearheaded the development of both USSD and WhatsApp bots for the Fettan system, enhancing user access through multiple communication channels. The USSD service supports both agency banking mode and customer mode, providing a robust solution for users without internet access to perform various banking operations. The WhatsApp bot mirrors the functionality of our Telegram bot, offering features such as money transfer, bill payments, airtime purchase, and account management in a secure and user-friendly manner. These bots ensure that users can perform essential transactions anytime, anywhere, with ease.`,
     image: '/imgs/whatsappbot.png'
   },
   {
