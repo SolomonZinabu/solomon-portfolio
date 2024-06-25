@@ -1,4 +1,3 @@
-// components/Skills.js
 import React from 'react';
 import { Box, Typography, Paper, Grid } from '@mui/material';
 import { motion } from 'framer-motion';
@@ -59,17 +58,51 @@ function Skills() {
             </Grid>
           </Grid>
           <Typography variant="h6" component="h3" gutterBottom style={{ marginTop: '16px' }}>
-            Other Skills
+            Database
           </Typography>
           <Grid container spacing={2}>
             <Grid item xs={4}>
-              <Typography variant="body1">Git</Typography>
+              <Typography variant="body1">MySQL</Typography>
+            </Grid>
+            <Grid item xs={4}>
+              <Typography variant="body1">PostgreSQL</Typography>
+            </Grid>
+            <Grid item xs={4}>
+              <Typography variant="body1">MongoDB</Typography>
+            </Grid>
+            <Grid item xs={4}>
+              <Typography variant="body1">SQLite</Typography>
+            </Grid>
+          </Grid>
+          <Typography variant="h6" component="h3" gutterBottom style={{ marginTop: '16px' }}>
+            DevOps and Server Management
+          </Typography>
+          <Grid container spacing={2}>
+            <Grid item xs={4}>
+              <Typography variant="body1">AWS</Typography>
             </Grid>
             <Grid item xs={4}>
               <Typography variant="body1">Docker</Typography>
             </Grid>
             <Grid item xs={4}>
-              <Typography variant="body1">AWS</Typography>
+              <Typography variant="body1">Nginx</Typography>
+            </Grid>
+            <Grid item xs={4}>
+              <Typography variant="body1">CI/CD</Typography>
+            </Grid>
+            <Grid item xs={4}>
+              <Typography variant="body1">Production Deployment</Typography>
+            </Grid>
+            <Grid item xs={4}>
+              <Typography variant="body1">Server Debugging</Typography>
+            </Grid>
+          </Grid>
+          <Typography variant="h6" component="h3" gutterBottom style={{ marginTop: '16px' }}>
+            Other Skills
+          </Typography>
+          <Grid container spacing={2}>
+            <Grid item xs={4}>
+              <Typography variant="body1">Git</Typography>
             </Grid>
             <Grid item xs={4}>
               <Typography variant="body1">Agile Methodologies</Typography>
