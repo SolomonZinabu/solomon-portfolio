@@ -10,7 +10,7 @@ const projects = [
     image: '/imgs/telegrambotsubmenu.png'
   },
   {
-    title: "Rest API's",
+    title: "API's",
     description: `I played a key role in enhancing the existing API infrastructure for communication with the Fettan Core system across multiple channels, ensuring support for various payload structures such as JSON, SOAP, XML, and YAML. Additionally, I designed and developed a range of REST and GraphQL APIs for diverse platforms. Key projects include:
     - **Glumor API**: Facilitated fan and icon interactions on the platform.
     - **Fast Park API**: Provided backend services for the parking solution platform, enabling real-time parking spot management and user interactions.
