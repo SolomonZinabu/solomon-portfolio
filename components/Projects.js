@@ -1,4 +1,3 @@
-// components/Projects.js
 import React, { useState } from 'react';
 import { Box, Typography, Paper, Grid, Dialog, DialogTitle, DialogContent, IconButton } from '@mui/material';
 import { motion } from 'framer-motion';
@@ -12,18 +11,18 @@ const projects = [
   },
   {
     title: "Rest API's",
-    description: `I enhanced the existing API used for communication with the Fettan Core system across various channels, supporting different payload structures such as JSON, SOAP, XML, and YAML. `,
-    image: '/path/to/rest-api-screenshot.png'
+    description: `I enhanced the existing API used for communication with the Fettan Core system across various channels, supporting different payload structures such as JSON, SOAP, XML, and YAML.`,
+    image: '/imgs/fettanapi.png'
   },
-  {                                
+  {
     title: "Amazon Web Services API Integration",
     description: `I have done more than 20 API integrations to our vendors/clients through AWS Lambda and EC2.`,
-    image: '/path/to/aws-integration-screenshot.png'
+    image: '/imgs/amazon.png'
   },
   {
     title: "Application Level Traffic Router",
     description: `I have built a traffic router to a Fettan core banking system which has API integration to secured vendors.`,
-    image: '/path/to/traffic-router-screenshot.png'
+    image: '/imgs/router.png'
   },
   {
     title: "mPOS",
@@ -42,8 +41,8 @@ const projects = [
   },
   {
     title: "Fast Park",
-    description: `I am managing and leading development for the Fast Park system, which is a parking solution. It has features like user registration with different roles (drivers, parking workers, parking lot owners, and system admins), parking lot registration, parking spot management.`,
-    image: '/path/to/fast-park-screenshot.png'
+    description: `Fast Park is an innovative parking solution designed to streamline the process of finding and managing parking spots. It includes a mobile app for drivers to locate, book, and navigate to available parking spots, an app for parking workers to update spot statuses in real-time, and an admin panel for owners to manage availability, process payments, and monitor usage patterns. Key features include secure user registration, payment integration, real-time notifications, feedback system, loyalty program, and accessibility features.`,
+    image: '/imgs/parkingproccess.png'
   }
 ];
 
@@ -72,13 +71,13 @@ function Projects() {
             <motion.div
               whileHover={{ scale: 1.05 }}
               onClick={() => handleClickOpen(project)}
-              style={{ cursor: 'pointer' }}
+              style={{ cursor: 'pointer', display: 'flex', flexDirection: 'column', height: '100%' }}
             >
-              <Paper elevation={3} style={{ padding: '16px' }}>
-                <Typography variant="h5" component="h3">
+              <Paper elevation={3} style={{ padding: '16px', flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
+                <Typography variant="h5" component="h3" gutterBottom>
                   {project.title}
                 </Typography>
-                <Typography variant="body1">
+                <Typography variant="body1" style={{ flexGrow: 1 }}>
                   {project.description}
                 </Typography>
               </Paper>
