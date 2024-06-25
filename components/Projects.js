@@ -11,9 +11,13 @@ const projects = [
   },
   {
     title: "Rest API's",
-    description: `I enhanced the existing API used for communication with the Fettan Core system across various channels, supporting different payload structures such as JSON, SOAP, XML, and YAML.`,
+    description: `I played a key role in enhancing the existing API infrastructure for communication with the Fettan Core system across multiple channels, ensuring support for various payload structures such as JSON, SOAP, XML, and YAML. Additionally, I designed and developed a range of REST and GraphQL APIs for diverse platforms. Key projects include:
+    - **Glumor API**: Facilitated fan and icon interactions on the platform.
+    - **Fast Park API**: Provided backend services for the parking solution platform, enabling real-time parking spot management and user interactions.
+    - **Inventory Management API**: Streamlined inventory tracking and management processes.
+  These APIs improved system interoperability, data consistency, and provided scalable solutions to meet the dynamic needs of our clients.`,
     image: '/imgs/fettanapi.png'
-  },
+  },  
   {
     title: "Amazon Web Services API Integration",
     description: `I spearheaded the integration of over 20 APIs for our vendors and clients utilizing AWS Lambda and EC2. This project involved designing, developing, and deploying serverless functions and virtual server instances to facilitate seamless and scalable API interactions. Leveraging AWS's robust infrastructure, I ensured high availability, low latency, and secure data transmission. The integrations covered a wide range of functionalities, including data synchronization, payment processing, user authentication, and third-party service communications. This initiative significantly improved operational efficiency and enabled our clients to leverage advanced cloud capabilities for their business needs.`,
